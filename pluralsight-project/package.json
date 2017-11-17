@@ -1,5 +1,5 @@
 {
-  "name": "expensify",
+  "name": "boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jaime Farnan",
@@ -10,6 +10,7 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
     "babel-loader": "7.1.1",
@@ -23,8 +24,9 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-modal": "^3.1.2",
-    "react-router-dom": "^4.2.2",
+    "react-redux": "^5.0.6",
     "redux": "^3.7.2",
+    "redux-promise": "^0.5.3",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
     "validator": "9.1.1",
