@@ -27,8 +27,10 @@ const store = createStore((state = { count: 0 }, action) => {
   }
 });
 
-// returns the current state
-console.log(store.getState());
+store.subscribe(() => {
+  // returns the current state
+  console.log(store.getState());
+});
 
 //////////// ACTIONS /////////////
 // An action is nothing more than an object that gets sent to the store.
@@ -52,5 +54,3 @@ store.dispatch({
 store.dispatch({
   type: 'DECREMENT'
 });
-
-console.log(store.getState());
