@@ -30,5 +30,10 @@
     "validator": "9.1.1",
     "webpack": "3.1.0",
     "webpack-dev-server": "^2.9.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "react-redux": "^5.0.6",
+    "uuid": "^3.1.0"
   }
 }
