@@ -6,7 +6,7 @@ const path = require('path');
 
 // module exports is a node thing - it's a way to expose this to another file
 module.exports = {
-  entry: './src/playground/redux-101.js',
+  entry: './src/app.js',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
